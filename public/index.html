@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y2PHEQ Playground</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Y2PHEQ Playground</h1>
+    <div id="ai-list">
+        <div class="ai-card" onclick="fetchResponse('mistral')">Mistral AI</div>
+        <div class="ai-card" onclick="fetchResponse('claude')">Claude AI</div>
+        <div class="ai-card" onclick="fetchResponse('gpt4')">GPT-4</div>
+    </div>
+    <div id="response"></div>
+    <script src="script.js"></script>
+</body>
+</html>
